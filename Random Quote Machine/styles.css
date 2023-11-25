@@ -1,0 +1,45 @@
+
+/* Define CSS custom properties in the :root pseudo-class for global use */
+:root {
+    --font: Arial, Helvetica, sans-serif; /* Define a custom font stack */
+  }
+  
+  /* Style the main app container */
+  #app {
+    height: 100vh; /* 100% of the viewport height */
+    width: 100vw; /* 100% of the viewport width */
+  }
+  
+  /* Style the quote box with a maximum width of 25% of the viewport width */
+  #quote-box {
+    max-width: 25%;
+  }
+  
+  /* Style the author text */
+  #author {
+    text-align: right; /* Align text to the right */
+    font-family: var(--font); /* Use the custom font stack */
+  }
+  
+  /* Style the quote text */
+  #text {
+    font-size: x-large; /* Set a larger font size */
+    font-family: var(--font); /* Use the custom font stack */
+  }
+  
+  /* Style the tweet button */
+  #tweet {
+    border: none; /* Remove borders from the tweet button */
+  }
+  
+  /* Style the tweet-quote link with padding */
+  #tweet-quote {
+    padding: 0.5rem; /* Add padding to the tweet-quote link */
+  }
+  
+  /* Style the new-quote button */
+  #new-quote {
+    font-family: var(--font); /* Use the custom font stack */
+    margin-bottom: 0; /* Remove bottom margin */
+    border-radius: 10em; /* Apply a rounded border-radius */
+  }
