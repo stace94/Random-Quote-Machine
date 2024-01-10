@@ -12,7 +12,7 @@
   
   /* Style the quote box with a maximum width of 25% of the viewport width */
   #quote-box {
-    max-width: 25%;
+    max-width: 50%;
   }
   
   /* Style the author text */
