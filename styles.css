@@ -10,7 +10,7 @@
     width: 100vw; /* 100% of the viewport width */
   }
   
-  /* Style the quote box with a maximum width of 25% of the viewport width */
+  /* Style the quote box with a maximum width of 50% of the viewport width */
   #quote-box {
     max-width: 50%;
   }
